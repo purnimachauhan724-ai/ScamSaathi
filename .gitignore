@@ -1,39 +1,123 @@
-# Logs
-logs
-*.log
-npm-debug.log*
+==============================
+
+Node.js Logs
+
+==============================
+
+logs/
+.log
+npm-debug.log
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+==============================
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Node.js Dependencies
+
+==============================
+
 node_modules/
-dist/
-build/
-# Environment secrets 
-# Python backend generated files
-backend/venv/
-backend/.venv/
-backend/__pycache__/
-**/__pycache__/
-*.pyc
 
-# Environment files
+==============================
+
+Frontend Build Files
+
+==============================
+
+dist/
+dist-ssr/
+build/
+coverage/
+
+==============================
+
+Environment Variables & Secrets
+
+==============================
+
 .env
 .env.*
 !.env.example
+
+==============================
+
+Python Virtual Environments
+
+==============================
+
+venv/
+.venv/
+env/
+ENV/
+backend/venv/
+backend/.venv/
+
+==============================
+
+Python Cache Files
+
+==============================
+
+pycache/
+**/pycache/
+*.py[cod]
+*$py.class
+
+==============================
+
+Editor Settings
+
+==============================
+
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+.ntvs
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+==============================
+
+Operating System Files
+
+==============================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+==============================
+
+Temporary & Local Files
+
+==============================
+
+*.local
+*.tmp
+*.temp
+
+==============================
+
+Test & Tool Cache
+
+==============================
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.eslintcache/
+.parcel-cache/
+
+==============================
+
+Generated Python Files
+
+==============================
+
+*.egg-info/
+htmlcov/

@@ -1,0 +1,26 @@
+.sidebar {
+  width: 240px;
+  background: var(--color-surface);
+  border-right: 1px solid #e0e0e0;
+  height: calc(100vh - 64px);
+  position: sticky;
+  top: 64px;
+  padding-top: var(--spacing);
+}
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar__item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem var(--spacing);
+  color: var(--color-text);
+  text-decoration: none;
+}
+.sidebar__item:hover,
+.sidebar__item.active {
+  background: var(--color-primary);
+  color: #fff;
+}

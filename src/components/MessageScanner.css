@@ -1,0 +1,37 @@
+.message-scanner {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.message-scanner textarea {
+  width: 100%;
+  min-height: 160px;
+  padding: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  font: inherit;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.message-scanner textarea:focus {
+  outline: 2px solid #6366f1;
+  border-color: #6366f1;
+}
+
+.message-scanner button {
+  margin-top: 12px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #4f46e5;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.message-scanner button:hover {
+  background: #4338ca;
+}

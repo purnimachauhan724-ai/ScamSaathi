@@ -1,0 +1,20 @@
+/* src/styles/variables.css */
+:root {
+  --color-primary: #0A1F44; /* deep navy */
+  --color-secondary: #0066FF; /* electric blue */
+  --color-accent: #00C9A7; /* teal/mint */
+  --color-bg: #F5F7FA; /* light off‑white */
+  --color-surface: #FFFFFF;
+  --color-text: #212529;
+  --radius: 12px;
+  --spacing: 1rem;
+  --shadow-elev: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #1E1E2F;
+    --color-surface: #2A2A40;
+    --color-text: #E0E0E0;
+  }
+}

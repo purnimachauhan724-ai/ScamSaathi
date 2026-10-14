@@ -1,0 +1,30 @@
+.result-panel {
+  width: 100%;
+  padding: 24px;
+  border-radius: 16px;
+  background: var(--card-bg, #ffffff);
+  color: var(--text-color, #1f2937);
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.result-panel h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.result-panel p {
+  line-height: 1.6;
+}
+
+.result-panel .risk-high {
+  color: #dc2626;
+}
+
+.result-panel .risk-medium {
+  color: #d97706;
+}
+
+.result-panel .risk-low {
+  color: #15803d;
+}

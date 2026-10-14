@@ -1,0 +1,12 @@
+fastapi==0.143.0 
+uvicorn[standard]==0.54.0 
+pydantic[dotenv]==2.14.0 
+scikit-learn==1.9.1 
+python-multipart==0.0.32 
+pillow==12.3.0 
+numpy 
+scipy 
+joblib 
+python-dotenv 
+watchfiles 
+websockets
